@@ -246,6 +246,7 @@ body {
 .partners-title-part {
   position: relative;
 }
+
 .partners-title-part::before {
   content: "";
   position: absolute;
