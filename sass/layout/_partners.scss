@@ -12,8 +12,7 @@
 
 .partners-title-part {
   position: relative;
-}
-.partners-title-part::before {
+  &::before {
   content: "";
   position: absolute;
   left: 0;
@@ -23,7 +22,8 @@
   height: 10px;
   z-index: -1;
   background: var(--accent-color);
-}
+}}
+
 
 .partners-list {
   display: flex;
