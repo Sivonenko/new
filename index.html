@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markify</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Open+Sans:wght@300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="./index.html" class="logo"><img src="./img/header/logo.svg" alt="logo" class="logo-img" /></a>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li><a href="" class="navigation-link">Affiliates </a></li>
+          <li><a href="" class="navigation-link">Advertisers</a></li>
+          <li><a href="" class="navigation-link">Events</a></li>
+          <li><a href="" class="navigation-link"> Blog</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="header-btn">sign Up</button>
+      <button type="button" class="menu-open-btn">
+        <svg class="menu-open-icon" width="28" height="20">
+          <use href="./img/icons.svg#icon-open-menu"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <div class="container">
+        <div class="mobile-wrap">
+          <a href="./index.html" class="mobile-logo"><img src="./img/header/logo.svg" alt="logo"
+              class="mobile-logo-img" /></a>
+          <button class="mobile-close-btn">
+            <svg class="mobile-close-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-cross"></use>
+            </svg>
+          </button>
+        </div>
+
+        <ul class="mobile-nav-list">
+          <li><a href="" class="mobile-link">Affiliates
+            </a></li>
+          <li><a href="" class="mobile-link">Advertisers</a></li>
+          <li><a href="" class="mobile-link">Events</a></li>
+          <li><a href="" class="mobile-link">Blog</a></li>
+        </ul>
+        <button type="button" class="mobile-send-btn">sign Up</button>
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- HERO -->
+    <!-- <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-left-side">
+            <ul class="media-list hero-media-list list">
+              <li class="media-list-item">
+                <a class="media-list-link link" href="" lang="en">Instagram</a>
+              </li>
+              <li class="media-list-item">
+                <a class="media-list-link link" href="" lang="en">Youtube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hero-right-side">
+            <p class="suptitle suptitle-theme-dark" lang="en">A hair salon for men in Kyiv</p>
+            <h1 class="main-title" lang="en">BarberShop</h1>
+            <p class="section-description section-description-theme-dark hero-section-description">
+              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+            </p>
+          </div>
+        </div>
+      </section> -->
+    <!-- ABOUT -->
+    <!-- <section class="about section" id="about">
+      <div class="container about-container">
+        <div class="about-left-side">
+          <ul class="about-gallery list">
+            <li class="about-gallery-item">
+              <img class="about-gallery-img" src="./images/about/about-img-1.jpg" alt="мастер бреет бороду" width="270"
+                height="445" />
+            </li>
+            <li class="about-gallery-item">
+              <img class="about-gallery-img" src="./images/about/about-img-2.jpg" alt="мастер стрижет" width="270"
+                height="445" />
+            </li>
+          </ul>
+        </div>
+        <div class="about-right-side">
+          <h2 class="suptitle suptitle-theme-light">О НАС</h2>
+          <h3 class="title title-theme-light">Лучший Барбершоп твоего города</h3>
+          <p class="section-description section-description-theme-light about-section-description">
+            Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
+          </p>
+          <p class="about-text">
+            Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И
+            когда ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы
+            команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы
+            усовершенствовать каждого, кто к нам приходит!
+          </p>
+          <button class="modal-btn modal-btn_theme_light" type="button">онлайн-запись</button>
+        </div>
+      </div>
+    </section> -->
+    <!-- SERVICES -->
+    <!-- <section class="services section" id="services">
+      <div class="container">
+        <p class="suptitle suptitle-theme-dark">Проведи время в компании лучших мастеров</p>
+        <h2 class="title title-theme-dark">Услуги и цены</h2>
+        <div class="services-table-wrapper">
+          <table class="services-table list">
+            <tr class="services-table-row">
+              <td class="services-table-name">Мужская стрижка</td>
+              <td class="services-table-price">от 300 грн.</td>
+            </tr>
+            <tr class="services-table-row">
+              <td class="services-table-name">Стрижка бороды</td>
+              <td class="services-table-price">от 200 грн.</td>
+            </tr>
+            <tr class="services-table-row">
+              <td class="services-table-name">Стрижка усов</td>
+              <td class="services-table-price">от 200 грн.</td>
+            </tr>
+            <tr class="services-table-row">
+              <td class="services-table-name">Бритье опасной бритвой</td>
+              <td class="services-table-price">от 200 грн.</td>
+            </tr>
+          </table>
+          <table class="services-table list">
+            <tr class="services-table-row">
+              <td class="services-table-name">Cтрижка у стажера</td>
+              <td class="services-table-price">от 50 грн.</td>
+            </tr>
+            <tr class="services-table-row">
+              <td class="services-table-name">Стрижка под насадку</td>
+              <td class="services-table-price">от 200 грн.</td>
+            </tr>
+            <tr class="services-table-row">
+              <td class="services-table-name">Детская стрижка (до 12 лет)</td>
+              <td class="services-table-price">от 300 грн.</td>
+            </tr>
+            <tr class="services-table-row">
+              <td class="services-table-name">Камуфлирование седины</td>
+              <td class="services-table-price">от 200 грн.</td>
+            </tr>
+          </table>
+        </div>
+        <button class="modal-btn modal-btn_theme_dark services-modal-btn" type="button">
+          онлайн-запись
+        </button>
+      </div>
+    </section> -->
+    <!-- ADVANTAGES -->
+    <!-- <section class="advantages section">
+      <div class="container advantages-container">
+        <div class="advantages-left-side">
+          <ul class="advantages-list list">
+            <li class="advantages-list-item">
+              <p class="advantages-list-quantity">600</p>
+              <p class="advantages-list-description">Довольных клиентов в день</p>
+            </li>
+            <li class="advantages-list-item">
+              <p class="advantages-list-quantity">50</p>
+              <p class="advantages-list-description">Наград за отличный сервис</p>
+            </li>
+            <li class="advantages-list-item">
+              <p class="advantages-list-quantity">20</p>
+              <p class="advantages-list-description">Лучших мастеров Киева</p>
+            </li>
+            <li class="advantages-list-item">
+              <p class="advantages-list-quantity">100</p>
+              <p class="advantages-list-description">Подарков постоянным клиентам</p>
+            </li>
+          </ul>
+        </div>
+        <div class="advantages-right-side">
+          <p class="suptitle suptitle-theme-light">старая традиционная школа</p>
+          <h2 class="title title-theme-light">Почему приходят именно к нам?</h2>
+          <p class="section-description section-description-theme-light advantages-section-description">
+            О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз
+            прочитать.
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <!-- EMPLOYEES -->
+    <!-- <section class="employees-section section" id="our-team">
+      <div class="container">
+        <p class="suptitle suptitle-theme-light">для настоящих ценителей атмосферы</p>
+        <h2 class="title title-theme-light employees-title">Наши мастера</h2>
+        <ul class="employees list">
+          <li class="employees-card">
+            <img class="employees-photo" src="./images/employees/john-smith.jpg" alt="мастер стрижет клиента"
+              width="370" height="346" />
+            <div class="employees-content-wrapper">
+              <h3 class="employees-name" lang="en">John Smith</h3>
+              <p class="employees-position" lang="en">Extreme Barber</p>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="instagram icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="twitter icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="facebook icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="linkedin icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="employees-card">
+            <img class="employees-photo" src="./images/employees/michele-doe.jpg" alt="мастер стрижет клиента"
+              width="370" height="346" />
+            <div class="employees-content-wrapper">
+              <h3 class="employees-name" lang="en">Michele Doe</h3>
+              <p class="employees-position" lang="en">Extreme Barber</p>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="instagram icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="twitter icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="facebook icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="linkedin icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="employees-card">
+            <img class="employees-photo" src="./images/employees/alan-black.jpg" alt="мастер стрижет клиента"
+              width="370" height="346" />
+            <div class="employees-content-wrapper">
+              <h3 class="employees-name" lang="en">Alan Black</h3>
+              <p class="employees-position" lang="en">Extreme Barber</p>
+              <ul class="social-list list">
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="instagram icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="twitter icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="facebook icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list-item">
+                  <a href="" class="social-list-link">
+                    <svg lang="en" aria-label="linkedin icon" class="social-list-icon">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- PORTFOLIO -->
+
+
+  </main>
+  <!-- FOOTER -->
+
+
+
+</body>
+
+</html>
