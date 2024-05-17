@@ -1,6 +1,6 @@
-
-.agency{
-padding: 40px 0;}
+.agency {
+  padding: 40px 0;
+}
 .agency-container {
   padding: 44px 16px;
   border-radius: 15px;
@@ -68,6 +68,10 @@ padding: 40px 0;}
   display: block;
 }
 @media only screen and (min-width: 1200px) {
+.agency{
+padding-top: 64px;
+padding-bottom: 96px;
+}
   .agency-container {
     padding: 64px 0;
   }
