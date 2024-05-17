@@ -1,0 +1,54 @@
+.agency-container {
+ padding: 44px 16px;
+    border-radius: 15px;
+    background-color: var(--secondary-bg-color);
+}
+
+.agency-title {
+font-size: 28px;
+line-height: 1.4;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+margin-bottom: 16px;
+}
+.agency-part {
+    position: relative;
+    z-index: 1;
+    &::before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    border-radius: 21px;
+width: 144px;
+height: 10px;
+background-color: var(--accent-color);
+z-index: -1;
+    }
+}
+.agency-desc {
+}
+.agency-text {
+    font-family:var(--secondary-font);
+line-height: 1.5;
+margin: 0 auto;
+text-align: center;
+color: #fff;
+margin-bottom: 32px;
+max-width: 194px;
+}
+.agency-button {
+    border-radius: 5px;
+min-width: 170px;
+height: 48px;
+background-color: var( --accent-color);
+border: none;
+font-family: var(--secondary-font);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-transform: capitalize;
+color: #fff;
+margin: 0 auto;
+display: block;
+}
