@@ -57,6 +57,10 @@ img {
   height: auto;
 }
 
+address {
+  font-style: normal;
+}
+
 body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
@@ -82,7 +86,6 @@ body {
 
 .header {
   padding: 24px 0;
-  background-image: url();
 }
 
 .header-container {
@@ -645,4 +648,64 @@ body {
     max-width: 471px;
     margin: unset;
   }
+}
+.footer {
+  background-color: #f9f1ee;
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-footer {
+  margin-bottom: 24px;
+}
+
+.logo-footer-img {
+  width: 145px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.footer-nav-link {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  text-align: center;
+  color: #313131;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--icon-color);
+  border-radius: 50%;
+}
+
+.footer-soc-linkedin {
+  border-radius: 20%;
 }/*# sourceMappingURL=main.css.map */
